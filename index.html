@@ -24,10 +24,11 @@
         </nav>
     </header>
 
+    <!-- home -->
     <section id="home" class="h-svh flex flex-col justify-center items-center bg-linear-to-b/srgb from-teal-100 to-teal-500">
         <div>
             <div>
-                <div class="my-4 text-2xl text-left font-medium lg:text-5xl">
+                <div class="my-4 text-2xl text-left font-base lg:text-5xl">
                     Hello, I'm
                 </div>
             </div>
@@ -44,6 +45,7 @@
         </a>
     </section>
 
+    <!-- about -->
     <section 
     id="about" 
     class="pt-10 pb-5 h-svh bg-teal-500"
@@ -56,7 +58,7 @@
 
             <div class="mt-5 flex flex-col content-center justify-center items-center">
                 <div class="text-3xl text-center lg:text-5xl lg:mb-0.5">
-                    I'm A Back-end Developer
+                    I'm a Back-end Developer
                 </div>
 
                 <div class="mx-5 min-w-80 h-1 lg:w-full bg-teal-900"></div>
@@ -67,20 +69,77 @@
 
                 <!-- logos -->
                 <div class="mt-5 mx-10 w-fit grid grid-cols-3 gap-5 justify-center content-center items-center rounded lg:gap-2 lg:mt-10 lg:grid-cols-5">
-                    <img src="assets/java.png" alt="java"  class="hover:bg-teal-400 rounded p-1 aspect-square max-w-[90px]">
-                    <img src="assets/csharp.png" alt="csharp"  class="hover:bg-teal-400 rounded p-1 aspect-square max-w-[90px]">
-                    <img src="assets/python.png" alt="python"  class="hover:bg-teal-400 rounded p-1 aspect-square max-w-[90px]">
-                    <img src="assets/mysql.png" alt="mysql"  class="hover:bg-teal-400 rounded p-1 aspect-square max-w-[90px]">
-                    <img src="assets/mssql.png" alt="mssql"  class="hover:bg-teal-400 rounded p-1 aspect-square max-w-[90px]">
+                    <img src="assets/java.png" alt="java"  class="hover:bg-teal-400 rounded p-1 aspect-square max-w-[90px] duration-300">
+                    <img src="assets/csharp.png" alt="csharp"  class="hover:bg-teal-400 rounded p-1 aspect-square max-w-[90px] duration-300">
+                    <img src="assets/python.png" alt="python"  class="hover:bg-teal-400 rounded p-1 aspect-square max-w-[90px] duration-300">
+                    <img src="assets/mysql.png" alt="mysql"  class="hover:bg-teal-400 rounded p-1 aspect-square max-w-[90px] duration-300">
+                    <img src="assets/mssql.png" alt="mssql"  class="hover:bg-teal-400 rounded p-1 aspect-square max-w-[90px] duration-300">
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects">
-
+    <!-- projects -->
+    <section id="projects" class="h-svh pt-8 bg-linear-to-b/srgb from-teal-500 to-white">
+        <div class="text-3xl text-center mt-10 font-medium lg:text-5xl lg:mb-0.5">
+                Projects
+        </div>
+        <div class="mx-8 mt-10 items-center content-center grid grid-cols-1 lg:mx-50 lg:grid-cols-3 md:grid-cols-2 gap-5 rounded">
+            <a href="" target="_blank" class="shadow rounded">
+                <div 
+                    class="bg-white rounded-lg  overflow-hidden hover:bg-gray-200 transition duration-300">
+                    <img src="assets/project.png" alt="project1 pic" />
+                    <div class="p-6">
+                        <h3 class="text-gray-600 text-xl font-medium mb-2">Project 1</h3>
+                        <div class="flex justify-between items-center">
+                            <p class="text-gray-600">Project 1 description</p>
+                            <svg id="outward-arrow" class="w-6 h-6 ml-2" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="" target="_blank" class="shadow rounded">
+                <div 
+                    class="bg-white rounded-lg  overflow-hidden hover:bg-gray-100 transition duration-300">
+                    <img src="assets/project.png" alt="project2 pic" />
+                    <div class="p-6 ">
+                        <h3 class="text-gray-600 text-xl font-medium mb-2">Project 2</h3>
+                        <div class="flex justify-between items-center">
+                            <p class="text-gray-600">Project 2 description</p>
+                            <svg id="outward-arrow" class="w-6 h-6 ml-2" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="" target="_blank" class="shadow rounded">
+                <div 
+                    class="bg-white rounded-lg  overflow-hidden hover:bg-gray-100 transition duration-300">
+                    <img src="assets/project.png" alt="project3 pic" />
+                    <div class="p-6 ">
+                        <h3 class="text-gray-600 text-xl font-medium mb-2">Project 3</h3>
+                        <div class="flex justify-between items-center">
+                            <p class="text-gray-600">Project 3 description</p>
+                            <svg id="outward-arrow" class="w-6 h-6 ml-2" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
     </section>
 
+    <!-- contact -->
     <section
     id="contact"
     class="mb-20 py-20 container mx-auto px-6 min-h-screen flex flex-col justify-center bg-white"
@@ -157,6 +216,7 @@
         ></div>
     </section>
     
+    <!-- footer -->
     <section id="footer">
         <footer class="px-5 py-5 bg-teal-800">
             <div class="flex flex-row justify-center content-center gap-5">
