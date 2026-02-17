@@ -13,7 +13,7 @@
     <header>
         <nav class="h-10 py-1 w-full text-center text-l border-b-3 lg:text-2xl lg:h-12 overflow-hidden fixed border-b-teal-950 bg-white">
             <ul>
-                <a class="hover:underline" href="#hero">Home</a>
+                <a class="hover:underline" href="#home">Home</a>
                 <a>|</a>
                 <a class="hover:underline" href="#about">About</a>
                 <a>|</a>
@@ -24,7 +24,7 @@
         </nav>
     </header>
 
-    <section id="hero" class="h-svh flex flex-col justify-center items-center bg-linear-to-b/srgb from-teal-100 to-teal-500">
+    <section id="home" class="h-svh flex flex-col justify-center items-center bg-linear-to-b/srgb from-teal-100 to-teal-500">
         <div>
             <div>
                 <div class="my-4 text-2xl text-left font-medium lg:text-5xl">
@@ -49,18 +49,30 @@
     class="pt-10 pb-5 h-svh bg-teal-500"
     >
         <div class="flex flex-col mt-10 items-center lg:flex-row lg:mx-50 lg:mt-30">
-            <div class="mt-5">
+            <!-- selfportrait -->
+            <div class="w-60 mt-3 shrink-0 lg:w-100">
+                <img class="border-5 border-teal-900 rounded-full" src="/assets/selfportrait.jpg" alt="self portrait">
+            </div>      
+
+            <div class="mt-5 flex flex-col content-center justify-center items-center">
                 <div class="text-3xl text-center lg:text-5xl lg:mb-0.5">
                     I'm A Back-end Developer
-                </div>  
-                <div class="w-80 h-1 lg:w-auto bg-teal-900"></div>
-                <div class="mt-2 w-80 text-center lg:text-2xl lg:w-auto">
+                </div>
+
+                <div class="mx-5 min-w-80 h-1 lg:w-full bg-teal-900"></div>
+                <div class="mx-5 mt-2 text-center lg:text-2xl lg:w-auto">
                     An IT student with foundational skills in java, c#, and python, 
                     and experience with working with MySQL and MS SQL
                 </div>
-            </div>
-            <div class="w-60 mt-3 shrink-0 lg:w-100">
-                <img class="border-5 border-teal-900 rounded-full" src="/assets/selfportrait.jpg" alt="self portrait">
+
+                <!-- logos -->
+                <div class="mt-5 mx-10 w-fit grid grid-cols-3 gap-5 justify-center content-center items-center rounded lg:gap-2 lg:mt-10 lg:grid-cols-5">
+                    <img src="assets/java.png" alt="java"  class="hover:bg-teal-400 rounded p-1 aspect-square max-w-[90px]">
+                    <img src="assets/csharp.png" alt="csharp"  class="hover:bg-teal-400 rounded p-1 aspect-square max-w-[90px]">
+                    <img src="assets/python.png" alt="python"  class="hover:bg-teal-400 rounded p-1 aspect-square max-w-[90px]">
+                    <img src="assets/mysql.png" alt="mysql"  class="hover:bg-teal-400 rounded p-1 aspect-square max-w-[90px]">
+                    <img src="assets/mssql.png" alt="mssql"  class="hover:bg-teal-400 rounded p-1 aspect-square max-w-[90px]">
+                </div>
             </div>
         </div>
     </section>
