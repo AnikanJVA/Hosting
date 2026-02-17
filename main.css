@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@100..800&family=Bungee&display=swap');
 @import "tailwindcss";
 
 html {
     margin: 0;
     padding: 0;
     font-family: "Roboto Condensed", sans-serif;
+}
+
+#hero{
+    font-family: "Anek Kannada", sans-serif;
+    font-weight: 900;
 }

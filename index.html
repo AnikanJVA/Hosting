@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <nav class="h-10 py-1 w-full text-center text-xl border-b-3 lg:text-3xl lg:h-12 overflow-hidden fixed border-b-teal-950 bg-white">
+        <nav class="h-10 py-1 w-full text-center text-l border-b-3 lg:text-2xl lg:h-12 overflow-hidden fixed border-b-teal-950 bg-white">
             <ul>
                 <a class="hover:underline" href="#hero">Home</a>
                 <a>|</a>
@@ -24,28 +24,45 @@
         </nav>
     </header>
 
+    <section id="hero" class="h-svh flex flex-col justify-center items-center bg-linear-to-b/srgb from-teal-100 to-teal-500">
+        <div>
+            <div>
+                <div class="my-4 text-2xl text-left font-medium lg:text-5xl">
+                    Hello, I'm
+                </div>
+            </div>
+            <div class="text-4xl text-left lg:text-6xl">
+                ANIKAN JOHN
+            </div>
+            <div class="text-4xl text-left lg:text-6xl">
+                VILLA-ABRILLE
+            </div>
+        </div>
+        <div class="w-80 h-1 lg:w-130 bg-teal-900 mt-2"></div>
+        <a class="mt-6 px-6 py-2 bg-teal-900 text-white rounded hover:bg-teal-800" href="#contact">
+            Contact Me
+        </a>
+    </section>
+
     <section 
-    id="hero" 
-    class="pt-10 pb-5 h-svh bg-linear-to-b/srgb from-teal-100 to-teal-800"
+    id="about" 
+    class="pt-10 pb-5 h-svh bg-teal-500"
     >
         <div class="flex flex-col mt-10 items-center lg:flex-row lg:mx-50 lg:mt-30">
             <div class="mt-5">
                 <div class="text-3xl text-center lg:text-5xl lg:mb-0.5">
-                    Hi, I'm <strong>Anikan</strong>
-                </div>
+                    I'm A Back-end Developer
+                </div>  
                 <div class="w-80 h-1 lg:w-auto bg-teal-900"></div>
                 <div class="mt-2 w-80 text-center lg:text-2xl lg:w-auto">
-                    A back-end developer IT student with experience in building reliable and scalable applications using java, c#, and python
+                    An IT student with foundational skills in java, c#, and python, 
+                    and experience with working with MySQL and MS SQL
                 </div>
             </div>
             <div class="w-60 mt-3 shrink-0 lg:w-100">
                 <img class="border-5 border-teal-900 rounded-full" src="/assets/selfportrait.jpg" alt="self portrait">
             </div>
         </div>
-    </section>
-
-    <section id="about">
-
     </section>
 
     <section id="projects">
@@ -115,7 +132,7 @@
 
             <button
             type="submit"
-            class="w-full bg-teal-950 text-gray-200 transition duration-300 text-xs font-medium tracking-widest border border-transparent px-6 py-3 mt-2 xl:mt-10 hover:bg-white hover:text-gray-800 hover:border hover:border-gray-800 md:px-12 md:text-sm"
+            class="w-full bg-teal-900 text-white transition duration-300 text-xs font-medium tracking-widest border border-transparent px-6 py-3 mt-2 xl:mt-10 hover:bg-white hover:text-gray-800 hover:border hover:border-gray-800 md:px-12 md:text-sm"
             >
             SEND MESSAGE
             </button>
@@ -150,7 +167,7 @@
             </div>
             <div class="flex flex-col text-center text-sm text-white content-end lg:mb-2">
                     <div class="bg-white h-px w-full mb-2"></div>
-                    &copy; 2025 Anikan. All rights reserved.
+                    &copy; Anikan John
                 </div>
         </footer>
     </section>
